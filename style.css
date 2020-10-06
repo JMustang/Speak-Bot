@@ -1,0 +1,74 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.10/tailwind.min.css";
+
+* {
+    text-align: center;
+}
+
+body {
+    background: rgb(155, 101, 187);
+    font: normal 15pt arial;
+}
+
+h4 {
+    font-family: "Lobster", cursive;
+}
+
+header {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    width: 95%;
+    height: 6vh;
+    margin: auto;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.logo-container,
+.nav-links {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 363);
+    align-items: center;
+
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
